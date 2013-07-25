@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF76E0C517A13B9D003FEC5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76E0C417A13B9D003FEC5C /* UIKit.framework */; };
+		AF76E0C717A13B9D003FEC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76E0C617A13B9D003FEC5C /* Foundation.framework */; };
+		AF76E0C917A13B9D003FEC5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF76E0C817A13B9D003FEC5C /* CoreGraphics.framework */; };
+		AF76E0CF17A13B9D003FEC5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF76E0CD17A13B9D003FEC5C /* InfoPlist.strings */; };
+		AF76E0D117A13B9D003FEC5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76E0D017A13B9D003FEC5C /* main.m */; };
+		AF76E0D517A13B9D003FEC5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF76E0D417A13B9D003FEC5C /* AppDelegate.m */; };
+		AF76E0D717A13B9D003FEC5C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF76E0D617A13B9D003FEC5C /* Default.png */; };
+		AF76E0D917A13B9D003FEC5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF76E0D817A13B9D003FEC5C /* Default@2x.png */; };
+		AF76E0DB17A13B9D003FEC5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF76E0DA17A13B9D003FEC5C /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF76E0C117A13B9D003FEC5C /* Laifu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laifu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF76E0C417A13B9D003FEC5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF76E0C617A13B9D003FEC5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF76E0C817A13B9D003FEC5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF76E0CC17A13B9D003FEC5C /* Laifu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Laifu-Info.plist"; sourceTree = "<group>"; };
+		AF76E0CE17A13B9D003FEC5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF76E0D017A13B9D003FEC5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF76E0D217A13B9D003FEC5C /* Laifu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Laifu-Prefix.pch"; sourceTree = "<group>"; };
+		AF76E0D317A13B9D003FEC5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF76E0D417A13B9D003FEC5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF76E0D617A13B9D003FEC5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF76E0D817A13B9D003FEC5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF76E0DA17A13B9D003FEC5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF76E0BE17A13B9C003FEC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF76E0C517A13B9D003FEC5C /* UIKit.framework in Frameworks */,
+				AF76E0C717A13B9D003FEC5C /* Foundation.framework in Frameworks */,
+				AF76E0C917A13B9D003FEC5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF76E0B817A13B9C003FEC5C = {
+			isa = PBXGroup;
+			children = (
+				AF76E0CA17A13B9D003FEC5C /* Laifu */,
+				AF76E0C317A13B9D003FEC5C /* Frameworks */,
+				AF76E0C217A13B9D003FEC5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF76E0C217A13B9D003FEC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF76E0C117A13B9D003FEC5C /* Laifu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF76E0C317A13B9D003FEC5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF76E0C417A13B9D003FEC5C /* UIKit.framework */,
+				AF76E0C617A13B9D003FEC5C /* Foundation.framework */,
+				AF76E0C817A13B9D003FEC5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF76E0CA17A13B9D003FEC5C /* Laifu */ = {
+			isa = PBXGroup;
+			children = (
+				AF76E0D317A13B9D003FEC5C /* AppDelegate.h */,
+				AF76E0D417A13B9D003FEC5C /* AppDelegate.m */,
+				AF76E0CB17A13B9D003FEC5C /* Supporting Files */,
+			);
+			path = Laifu;
+			sourceTree = "<group>";
+		};
+		AF76E0CB17A13B9D003FEC5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF76E0CC17A13B9D003FEC5C /* Laifu-Info.plist */,
+				AF76E0CD17A13B9D003FEC5C /* InfoPlist.strings */,
+				AF76E0D017A13B9D003FEC5C /* main.m */,
+				AF76E0D217A13B9D003FEC5C /* Laifu-Prefix.pch */,
+				AF76E0D617A13B9D003FEC5C /* Default.png */,
+				AF76E0D817A13B9D003FEC5C /* Default@2x.png */,
+				AF76E0DA17A13B9D003FEC5C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF76E0C017A13B9C003FEC5C /* Laifu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF76E0DE17A13B9D003FEC5C /* Build configuration list for PBXNativeTarget "Laifu" */;
+			buildPhases = (
+				AF76E0BD17A13B9C003FEC5C /* Sources */,
+				AF76E0BE17A13B9C003FEC5C /* Frameworks */,
+				AF76E0BF17A13B9C003FEC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laifu;
+			productName = Laifu;
+			productReference = AF76E0C117A13B9D003FEC5C /* Laifu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF76E0B917A13B9C003FEC5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yulong;
+			};
+			buildConfigurationList = AF76E0BC17A13B9C003FEC5C /* Build configuration list for PBXProject "Laifu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF76E0B817A13B9C003FEC5C;
+			productRefGroup = AF76E0C217A13B9D003FEC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF76E0C017A13B9C003FEC5C /* Laifu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF76E0BF17A13B9C003FEC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF76E0CF17A13B9D003FEC5C /* InfoPlist.strings in Resources */,
+				AF76E0D717A13B9D003FEC5C /* Default.png in Resources */,
+				AF76E0D917A13B9D003FEC5C /* Default@2x.png in Resources */,
+				AF76E0DB17A13B9D003FEC5C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF76E0BD17A13B9C003FEC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF76E0D117A13B9D003FEC5C /* main.m in Sources */,
+				AF76E0D517A13B9D003FEC5C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF76E0CD17A13B9D003FEC5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF76E0CE17A13B9D003FEC5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF76E0DC17A13B9D003FEC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF76E0DD17A13B9D003FEC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF76E0DF17A13B9D003FEC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Laifu/Laifu-Prefix.pch";
+				INFOPLIST_FILE = "Laifu/Laifu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF76E0E017A13B9D003FEC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Laifu/Laifu-Prefix.pch";
+				INFOPLIST_FILE = "Laifu/Laifu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF76E0BC17A13B9C003FEC5C /* Build configuration list for PBXProject "Laifu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF76E0DC17A13B9D003FEC5C /* Debug */,
+				AF76E0DD17A13B9D003FEC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF76E0DE17A13B9D003FEC5C /* Build configuration list for PBXNativeTarget "Laifu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF76E0DF17A13B9D003FEC5C /* Debug */,
+				AF76E0E017A13B9D003FEC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF76E0B917A13B9C003FEC5C /* Project object */;
+}
