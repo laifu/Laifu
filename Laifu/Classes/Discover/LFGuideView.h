@@ -1,0 +1,1 @@
+////  LFGuideView.h//  Laifu////  Created by 于 龙 on 13-7-23.//  Copyright (c) 2013年 于龙. All rights reserved.//#import <UIKit/UIKit.h>@interface LFGuideView : UIView- (id)initWithFrame:(CGRect)frame withImage:(NSString *)imageName;- (void)closeBtnClicked:(id)sender;@end
